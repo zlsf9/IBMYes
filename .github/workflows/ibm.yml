@@ -20,6 +20,7 @@ env:
   V2_PATH: ${{ secrets.V2_PATH }}
   ALTER_ID: ${{ secrets.ALTER_ID }}
 
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
