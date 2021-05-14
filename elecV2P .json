@@ -1,0 +1,127 @@
+{
+  "name": "elecV2P 定时任务订阅",
+  "author": "留个名字",
+  "desc": "xx 导出的任务订阅。该订阅适用于 elecV2P，与其他软件并不兼容。相关说明参考：https://github.com/elecV2/elecV2P-dei/tree/master/docs/06-task.md",
+  "date": "2021-05-14 18:13:02",
+  "list": [
+    {
+      "name": "如意花园",
+      "type": "cron",
+      "time": "*/15 * * * *",
+      "job": {
+        "type": "runjs",
+        "target": "ryhy.js"
+      },
+      "running": false
+    },
+    {
+      "name": "开心花园",
+      "type": "cron",
+      "time": "*/30 * * * *",
+      "job": {
+        "type": "runjs",
+        "target": "kxhy.js"
+      },
+      "running": false
+    },
+    {
+      "name": "吾爱破解",
+      "type": "cron",
+      "time": "0 9 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js"
+      },
+      "running": false
+    },
+    {
+      "name": "百度极速版",
+      "type": "cron",
+      "time": "*/30 5-23 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/baidu_speed.js"
+      },
+      "running": false
+    },
+    {
+      "name": "笑谱",
+      "type": "cron",
+      "time": "10 16 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "xpread.js"
+      }
+    },
+    {
+      "name": "今日头条极速版",
+      "type": "cron",
+      "time": "5,35 6-23 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/jrtt.js"
+      },
+      "running": false
+    },
+    {
+      "name": "抖音极速版",
+      "type": "cron",
+      "time": "5,35 8-23 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/dyjsb.js"
+      },
+      "running": false
+    },
+    {
+      "name": "圣牧有机",
+      "type": "cron",
+      "time": "0 6 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/xl2101200/-/main/smyj.js"
+      },
+      "running": false
+    },
+    {
+      "name": "keep小程序打卡偷能量",
+      "type": "cron",
+      "time": "0 6 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/xl2101200/-/main/keepdk.js"
+      },
+      "running": false
+    },
+    {
+      "name": "keep小程序浇水",
+      "type": "cron",
+      "time": "0 0/30 * * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/xl2101200/-/main/keepjs.js"
+      },
+      "running": false
+    },
+    {
+      "name": "葱花视频",
+      "type": "cron",
+      "time": "*/20 0-23 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/CONGHUA/chonghua.js"
+      },
+      "running": false
+    },
+    {
+      "name": "趣头条",
+      "type": "cron",
+      "time": "*/20 5-18 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/CenBoMin/QuantumultX/master/Scripts/HTT/htt_task_4.js"
+      },
+      "running": false
+    }
+  ]
+}
